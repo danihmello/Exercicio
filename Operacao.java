@@ -4,8 +4,10 @@ public class Operacao {
 	double a;
 	double b;
 		
-	public void subtracao(double resultado) {
+	public void subtracao() {
+		double resultado;
 		resultado = a-b;
+		msg("A subtracao dos numeros é " +resultado)
 	}
 	
 	public void calculaMedia(double resultado) {
@@ -18,6 +20,10 @@ public class Operacao {
 			a = a-1;
 		}
 		
+	}
+	
+	public static void msg(String mg){
+		System.out.println(mg);
 	}
 
 }
