@@ -1,6 +1,4 @@
 
-package exercicio_operacoes;
-
 import java.util.Scanner;
 
 public class Visao {
